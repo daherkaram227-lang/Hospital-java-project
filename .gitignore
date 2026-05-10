@@ -1,0 +1,20 @@
+# Gradle Build Directories
+.gradle/
+build/
+
+# IntelliJ IDEA (For your collaborator)
+.idea/
+*.iml
+*.iws
+out/
+
+# Neovim / Vim (For you)
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# OS generated files
+.DS_Store
+Thumbs.db
