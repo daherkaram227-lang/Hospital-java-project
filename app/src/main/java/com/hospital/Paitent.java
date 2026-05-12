@@ -1,4 +1,4 @@
-package org.example;
+package com.hospital;
 
 import java.util.ArrayList;
 

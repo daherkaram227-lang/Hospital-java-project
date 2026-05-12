@@ -1,4 +1,4 @@
-package org.example;
+package com.hospital;
 enum Specialist{
     Cardiology,Orthopedics,Dermatology
 
