@@ -3,37 +3,39 @@ package com.hospital;
 import java.util.ArrayList;
 
 public class Paitent {
-   private String Id;
-   private String Name;
-   private int Age;
-   private String phoneNumber;
-   private ArrayList <Appointment> Visit=new ArrayList <>();
-    public Paitent(String id, String name, int age, String phoneNumber) {
-        this.Id = id;
-       this.Name = name;
-       this.Age = age;
-        this.phoneNumber = phoneNumber;
+  private String id;
+  private String name;
+  private int age;
+  private String phoneNumber;
+  private ArrayList<Appointment> visit = new ArrayList<>();
 
-    }
+  public Paitent(String id, String name, int age, String phoneNumber) {
+    this.id = id;
+    this.name = name;
+    this.age = age;
+    this.phoneNumber = phoneNumber;
 
-public void Addvisit(Appointment    appointment){
+  }
 
-        Visit.add(appointment);
+  public void addVisit(Appointment appointment) {
 
-}
-    public String getId() {
-        return Id;
-    }
+    visit.add(appointment);
 
-    public String getName() {
-        return Name;
-    }
+  }
 
-    public int getAge() {
-        return Age;
-    }
+  public String getId() {
+    return id;
+  }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
+  public String getName() {
+    return name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public String getPhoneNumber() {
+    return phoneNumber;
+  }
 }
